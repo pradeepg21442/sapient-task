@@ -1,0 +1,46 @@
+.container-fluid{
+  background-color: #dddddd;
+  padding: 20px;
+}
+
+.filters{
+  background-color: #ffffff;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: auto;
+  h5{
+    text-align: left;
+    margin-left: -5px;
+  }
+}
+
+.btn-inactive{
+  background-color: #D9EBAE;
+  margin-bottom: 10px ;
+  border-radius: 15%;
+}
+.filter-name{
+  text-align: center;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+}
+
+.mission-program{
+  margin-top: -10px;
+}
+.btn-active{
+  background-color: #B1F119;
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .mission-program {
+    margin-top: 10px;
+    text-align: left;
+  };
+  .mission-item{
+    padding: 0;
+    margin: 10px -10px;
+  }
+}

@@ -1,0 +1,11 @@
+<div class="container-fluid">
+  <img [src]="mission.links.mission_patch_small" class="program-image">
+  <p class="mission-name">{{mission.mission_name}} # {{mission.flight_number}}</p>
+  <p class="mission-label">Mission Ids : </p>
+  <ul>
+    <li *ngFor="let missionId of mission.mission_id" class="mission-label-value">{{missionId}}</li>
+  </ul>
+  <p class="mission-label">Launch Year: <span class="mission-label-value">{{mission.launch_year}}</span></p>
+  <p class="mission-label">Successful Launch: <span class="mission-label-value">{{mission.launch_success}}</span></p>
+  <p class="mission-label">Launch Landing: <span class="mission-label-value">{{mission.launch_success}}</span></p>
+</div>
